@@ -89,13 +89,12 @@ img.h-10 {
   100% { transform: translate(85px, 0%); }
 }
 .en-base {
-  position: relative;
+  position: absolute; /* Changed to absolute positioning */
   top: 50%;
   left: 50%;
   height: 150px;
   width: 225px;
-  margin-top: 80px;
-  margin-left: -112.5px; /* Adjusted to center the envelope */
+  transform: translate(-50%, -50%); /* Centering the envelope */
   background: #FBBF24;
   border-radius: 3px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -149,5 +148,9 @@ img.h-10 {
   }
   .wave-parallax4 use {
     animation: move-forever4 25s linear infinite;
+  }
+  .en-base {
+    height: 100px;
+    top: 60%;
   }
 }
