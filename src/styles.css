@@ -153,4 +153,10 @@ img.h-10 {
     height: 100px;
     top: 60%;
   }
+  #presentation .text-5xl {
+    font-size: 2.5rem;
+  }
+  #presentation .text-xl {
+    font-size: 1rem;
+  }
 }
