@@ -89,12 +89,12 @@ img.h-10 {
   100% { transform: translate(85px, 0%); }
 }
 .en-base {
-  position: absolute; /* Changed to absolute positioning */
+  position: absolute;
   top: 50%;
   left: 50%;
   height: 150px;
   width: 225px;
-  transform: translate(-50%, -50%); /* Centering the envelope */
+  transform: translate(-50%, -50%);
   background: #FBBF24;
   border-radius: 3px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
